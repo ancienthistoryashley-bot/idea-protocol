@@ -1,6 +1,6 @@
 ---
 name: idea-protocol
-description: "Structured idea-to-market pipeline for research, pitching, and implementation. Use when: (1) Ashley submits /idea via Discord, (2) Researching new project opportunities, (3) Creating implementation plans, (4) Pitching ideas for approval, (5) Entering locked-in execution mode. Handles full lifecycle from idea capture through research, security checks, planning, pitch, and execution."
+description: "Structured idea-to-market pipeline for research, pitching, and implementation. Use when: (1) User submits /idea via Discord, (2) Researching new project opportunities, (3) Creating implementation plans, (4) Pitching ideas for approval, (5) Entering locked-in execution mode. Handles full lifecycle from idea capture through research, security checks, planning, pitch, and execution."
 ---
 
 # Idea Protocol
@@ -89,7 +89,7 @@ Send Discord message with:
 
 ## Phase 4 — Locked In Mode
 
-**Trigger:** Ashley replies "go"
+**Trigger:** User replies "go"
 
 **Actions:**
 1. Set `status.json` to `LOCKED_IN`
